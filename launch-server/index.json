@@ -1,0 +1,32 @@
+{
+  "backend": {
+    "imageid": "bash-cluster2"
+  },
+  "environment": {
+    "uilayout": "terminal-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+    "hideintro": false,
+    "hidefinish": false
+  },
+  "details": {
+    "steps": [{
+      "title": "Download",
+      "text": "step1.md"
+    }, {
+    "title": "Start and Connect",
+    "text": "step2.md"
+    }, {
+    "title": "Sub / Pub",
+    "text": "step3.md"
+    }],
+    "intro": {
+      "courseData": "env-init.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "description": "Learn how to launch a NATS Server for Pub/Sub",
+  "title": "Launch NATS server"
+}
